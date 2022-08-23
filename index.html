@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+
+    <title>eCommerce Website</title>
+</head>
+<body class="font-gotham">
+    <nav class="container mx-auto flex items-center justify-between py-14">
+        <div class="">
+            <h1 class="text-black text-5xl">StoreHouse</h1>
+        </div>
+        <div class="flex items-center">
+            <div>
+                <a class="ml-8 text-sm hover:text-orange-400" href="#">New</a>
+                <a class="ml-8 text-sm hover:text-orange-400" href="#">Catalogue</a>
+                <a class="ml-8 text-sm hover:text-orange-400" href="#">Payment</a>
+                <a class="ml-8 text-sm hover:text-orange-400" href="#">Shipping</a>
+                <a class="ml-8 text-sm hover:text-orange-400" href="#">Blog</a>
+                <a class="ml-8 text-sm hover:text-orange-400" href="#">Contact</a>
+            </div>
+            <div class="flex  items-center ml-24">
+                <a class="ml-6" href="#"><i class="fa-solid fa-user"></i></a>
+                <a class="ml-6" href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
+                <a class="ml-6" href="#"><i class="fa-solid fa-cart-shopping"></i></a>
+            </div>
+        </div>
+    </nav>
+
+    <header class="container mx-auto relative">
+        <div class="slider">
+            <div class="slide">
+                <div class="flex relative">
+                    <div class="bg-emerald-100 w-2/3 flex items-center">
+                        <img src="./img/spray-5947445_960_720-removebg-preview.png" alt="cosmetic bottle">
+                        <div class="absolute hero_heading">
+                            <h4 class="text-2xl text-gray-400">New</h4>
+                            <h1 class="text-8xl font-medium leading-tight mb-4 ab">Shower Gel</h1>
+                            <p class="w-144 text-gray-500 leading-normal">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Delectus eius cumque obcaecati voluptas, ab dolores minima est alias voluptatum ad reprehenderit laboriosam iusto animi natus, dolorem neque dolorum omnis. Doloremque.</p>
+                        
+                        </div>
+                    </div>
+                    <div class="bg-green-200 w-1/3 flex flex-col justify-end">
+                        <button class="bg-orange-300 flex items-center justify-between p-8 hover:bg-orange-500">
+                            <span class="">SEE ALL</span><i class="fa-solid fa-arrow-right-long"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="slide">
+                <div class="flex relative">
+                    <div class="bg-emerald-100 w-2/3 flex items-center">
+                        <img src="./img/spray-5947445_960_720-removebg-preview.png" alt="cosmetic bottle">
+                        <div class="absolute hero_heading">
+                            <h4 class="text-2xl text-gray-400">New</h4>
+                            <h1 class="text-8xl font-medium leading-tight mb-4 ab">Shower Gel</h1>
+                            <p class="w-144 text-gray-500 leading-normal">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Delectus eius cumque obcaecati voluptas, ab dolores minima est alias voluptatum ad reprehenderit laboriosam iusto animi natus, dolorem neque dolorum omnis. Doloremque.</p>
+                        
+                        </div>
+                    </div>
+                    <div class="bg-green-200 w-1/3 flex flex-col justify-end">
+                        <button class="bg-orange-300 flex items-center justify-between p-8 hover:bg-orange-500">
+                            <span class="">SEE ALL</span><i class="fa-solid fa-arrow-right-long"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="slide">
+                <div class="flex relative">
+                    <div class="bg-emerald-100 w-2/3 flex items-center">
+                        <img src="./img/spray-5947445_960_720-removebg-preview.png" alt="cosmetic bottle">
+                        <div class="absolute hero_heading">
+                            <h4 class="text-2xl text-gray-400">New</h4>
+                            <h1 class="text-8xl font-medium leading-tight mb-4 ab">Shower Gel</h1>
+                            <p class="w-144 text-gray-500 leading-normal">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Delectus eius cumque obcaecati voluptas, ab dolores minima est alias voluptatum ad reprehenderit laboriosam iusto animi natus, dolorem neque dolorum omnis. Doloremque.</p>
+                        
+                        </div>
+                    </div>
+                    <div class="bg-green-200 w-1/3 flex flex-col justify-end">
+                        <button class="bg-orange-300 flex items-center justify-between p-8 hover:bg-orange-500">
+                            <span class="">SEE ALL</span><i class="fa-solid fa-arrow-right-long"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="slider-dots absolute"></div>
+    </header>
+
+    <section class="container mx-auto py-32 flex">
+        <div class="w-2/6">
+            <div>
+                <h6 class="font-medium mb-2 text-3xl">offer</h6>
+                <h2 class="text-6xl font-medium leading-tight">OFF</h2>
+                <h2 class="text-6xl font-medium leading-tight upto">Upto 20%</h2>
+                <h6 class="py-8">For all cosmetics</h6>
+            </div>
+            <div class="">
+                <ul>
+                    <li class="py-3"><a class="menu-trigger font-semibold hover:text-orange-500" href="#">New</a>
+                        <ul class="sub-menu ml-4 font-normal">
+                            <li class="py-2 pt-3"><a 
+                               class="hover:text-orange-400" href="#">Cream</a></li>
+                            <li class="py-2 pt-3"><a 
+                               class="hover:text-orange-400" href="#">Oil</a></li>
+                            <li class="py-2 pt-3"><a 
+                               class="hover:text-orange-400" href="#">Mask</a></li>
+                            <li class="py-2 pt-3"><a 
+                               class="hover:text-orange-400" href="#">Lipstick</a></li>
+                            <li class="py-2 pt-3"><a 
+                               class="hover:text-orange-400" href="#">Spray</a></li>
+                        </ul>
+                    </li>
+                    <li class="py-3"><a class="menu-trigger font-semibold hover:text-orange-500" href="#">For Body</a>
+                        <ul class="sub-menu ml-4 font-normal hidden">
+                            <li class="py-2 pt-3"><a 
+                               class="hover:text-orange-400" href="#">Cream</a></li>
+                            <li class="py-2 pt-3"><a 
+                               class="hover:text-orange-400" href="#">Oil</a></li>
+                            <li class="py-2 pt-3"><a 
+                               class="hover:text-orange-400" href="#">Mask</a></li>
+                            <li class="py-2 pt-3"><a 
+                               class="hover:text-orange-400" href="#">Lipstick</a></li>
+                            <li class="py-2 pt-3"><a 
+                               class="hover:text-orange-400" href="#">Spray</a></li>
+                        </ul>
+                    </li>
+                    <li class="py-3"><a class="menu-trigger font-semibold hover:text-orange-500" href="#">Perfumes</a>
+                        <ul class="sub-menu ml-4 font-normal hidden">
+                            <li class="py-2 pt-3"><a 
+                               class="hover:text-orange-400" href="#">Cream</a></li>
+                            <li class="py-2 pt-3"><a 
+                               class="hover:text-orange-400" href="#">Oil</a></li>
+                            <li class="py-2 pt-3"><a 
+                               class="hover:text-orange-400" href="#">Mask</a></li>
+                            <li class="py-2 pt-3"><a 
+                               class="hover:text-orange-400" href="#">Lipstick</a></li>
+                            <li class="py-2 pt-3"><a 
+                               class="hover:text-orange-400" href="#">Spray</a></li>
+                        </ul>
+                    </li>
+                    <li class="py-3"><a class="menu-trigger font-semibold hover:text-orange-500" href="#">For Hair</a>
+                        <ul class="sub-menu ml-4 font-normal hidden">
+                            <li class="py-2 pt-3"><a 
+                               class="hover:text-orange-400" href="#">Cream</a></li>
+                            <li class="py-2 pt-3"><a 
+                               class="hover:text-orange-400" href="#">Oil</a></li>
+                            <li class="py-2 pt-3"><a 
+                               class="hover:text-orange-400" href="#">Mask</a></li>
+                            <li class="py-2 pt-3"><a 
+                               class="hover:text-orange-400" href="#">Lipstick</a></li>
+                            <li class="py-2 pt-3"><a 
+                               class="hover:text-orange-400" href="#">Spray</a></li>
+                        </ul>
+                    </li>
+                    <li class="py-3"><a class="menu-trigger font-semibold hover:text-orange-500" href="#">For Face</a>
+                        <ul class="sub-menu ml-4 font-normal hidden">
+                            <li class="py-2 pt-3"><a 
+                               class="hover:text-orange-400" href="#">Cream</a></li>
+                            <li class="py-2 pt-3"><a 
+                               class="hover:text-orange-400" href="#">Oil</a></li>
+                            <li class="py-2 pt-3"><a 
+                               class="hover:text-orange-400" href="#">Mask</a></li>
+                            <li class="py-2 pt-3"><a 
+                               class="hover:text-orange-400" href="#">Lipstick</a></li>
+                            <li class="py-2 pt-3"><a 
+                               class="hover:text-orange-400" href="#">Spray</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="w-4/6 flex">
+            <div class="w-1/2 mr-6">
+                <div class="bg-green-200 mb-6 box-1 w-2/3 ml-auto"><img src="./img/perfume-2142824__340-removebg-preview.png" alt="">
+                <div class="absolute bottom-2 right-0 bg-white font-medium py-2 px-10 "><a href="#" class="hover:text-orange-300">Perfumes</a></div>
+                </div>
+                <div class="bg-gray-300 mb-6 box-2 pt-2 w-full ml-auto"><img src="./img/oil-discharge-2794477_960_720-removebg-preview.png" alt="">
+                <div class="absolute bg-white font-medium py-2 px-10"><a href="#" class="hover:text-orange-300">Hair Oils</a></div>
+                </div>
+                <div class="bg-pink-200 mb-6 box-3 w-2/3 ml-auto h-64"><img src="./img/makeup-5643863__340-removebg-preview.png "alt="">
+                <div class="absolute bg-white font-medium py-2 px-10 right-0 top-2"><a href="#" class="hover:text-orange-300">MakeUp</a></div>
+                </div>
+            </div>
+            <div class="w-1/2">
+                <div class="bg-amber-200 mb-6 box-4 w-2/3 h-2/3"><img src="./img/istockphoto-1198863709-612x612-removebg-preview.png" alt="">
+                <div class="absolute bg-white font-medium py-2 px-10 bottom-2"><a href="#" class="hover:text-orange-300">Shampoos</a></div>
+                </div>
+                <div class="bg-red-300 box-5 w-full mb-20"><img src="./img/istockphoto-1300939324-612x612-removebg-preview.png" alt="">
+                <div class="absolute bg-white font-medium py-2 px-10 top-2 right-0"><a href="#" class="hover:text-orange-300">Facewash</a></div>
+                </div>
+                <div class="bg-blue-200 mb-6 box-6 w-2/3 mt-0"><img src="./img/perfume-3220296_960_720-removebg-preview.png" alt="">
+                <div class="absolute bg-white font-medium py-2 px-10"><a href="#" class="hover:text-orange-300">Miscellaneous</a></div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="flex w-11/12 ml-auto mr-0">
+        <div class="bg-orange-400 w-2/5 p-24">
+            <div class="w-64">
+                <h4 class="text-white font-medium text-3xl">Special</h4>
+                <h3 class="text-white font-medium text-6xl leading-tight border-b-4 border-white pb-4 ">Offer</h3>
+                <p class="text-white py-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum eaque accusamus dolores fugit a quae aperiam sunt asperiores ipsa facilis.</p>
+            </div>
+            <div class="mt-12">
+                <div class="">
+                    <form action="">
+                        <div class="mb-3">
+                            <input type="text" name="" id="" placeholder="Name" class="bg-orange-300 text-white text-base placeholder-white w-full p-3 outline-none focus:bg-orange-400">
+                        </div>
+                        <div class="">
+                            <input type="email" name="" id="" placeholder="email" class="bg-orange-300 text-white text-base placeholder-white w-full p-3 outline-none focus:bg-orange-400">
+                        </div>
+                        <div class="">
+                            <button type="submit" class="bg-black-400 text-white w-full p-3 uppercase text-sm tracking-wide hover:bg-black focus:outline-none">submit</button>
+                        </div>
+                        <div class="flex items-center mt-6">
+                            <div class="">
+                                <input type="checkbox" name="" id="check"  class="agree_checkbox" checked><label for="check"></label>
+                            </div>
+                            <div class="ml-3 text-white text-sm font-thin">
+                                By clicking Subscribe , you agree to our terms and <a href="#" class=" hover:text-black text-red-500">Privacy Policy</a>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="w-3/5">
+            <img src="./img/hair-care-4541744__340.webp" alt="img" class="h-full">
+        </div>
+    </section>
+    <section class="container mx-auto py-40 flex">
+        
+        <div class="w-2/5">
+            <div class="w-64 text-black">
+                <h4 class= "font-medium text-3xl">Blog</h4>
+                <h3 class="font-medium text-6xl leading-tight border-b-4 border-orange-200 pb-4 ">Popular</h3>
+                <p class=" py-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum eaque accusamus dolores fugit a quae aperiam sunt asperiores ipsa facilis.</p>
+            </div>
+            <div class="mt-16">
+                <button class="bg-orange-400 text-white w-1/2 flex items-center justify-between hover:bg-orange-500 p-8 uppercase">
+                    <span>Read All Articles</span>
+                    <i class="fa-solid fa-arrow-right-long"></i>
+                </button>
+            </div>
+        </div>
+        <div class="w-3/5 flex items-center pl-16">
+            <div class="w-4/6">
+                <img src="./img/lipstick-1172661__340.jpg" alt="photo" class="h-4/5 w-screen pr-8">
+            </div>
+            <div class="w-2/6">
+                <h1 class="text-2xl leading-normal font-semibold text-black uppercase">The Best Beauty Blog on the Internet</h1>
+                <div class="w-186 h-px bg-orange-300 my-"></div>
+                <p class="text-sm text-gray-800 leading-loose">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cum, perspiciatis dolores est fuga, exercitationem quo quam explicabo voluptate temporibus possimus reprehenderit qui, voluptatem adipisci mollitia? Atque quasi accusantium ipsam totam!</p>
+                <div class="flex items-center mt-16">
+                    <i class="fa-solid fa-link cursor-pointer"></i>
+                    <span class="ml-4">Link to Article</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <h2 class="font-semibold text-center text-3xl  leading-tight pb-4">Top Selling Products</h2>
+        <div class="border-b-4 border-orange-200 leading-tight mb-10 ml-128 items-center w-1/4"></div>
+        <div class="slider-2">
+            <div class="slide">
+                <div class="inner_box">
+                    <div class=" bg-gray-300">
+                        <img src="./img/istockphoto-1168912372-170667a.jpg" alt=""><div class="absolute bg-white text-xl font-semibold hover:text-orange-400">Products</div>
+                    </div>
+                </div>
+            </div>
+            <div class="slide">
+                <div class="inner_box">
+                    <div class=" bg-gray-300">
+                        <img src="./img/istockphoto-1168912372-170667a.jpg" alt=""><div class="absolute bg-white text-xl font-semibold hover:text-orange-400">Products</div>
+                    </div>
+                </div>
+            </div>
+            <div class="slide">
+                <div class="inner_box">
+                    <div class=" bg-gray-300">
+                        <img src="./img/istockphoto-1168912372-170667a.jpg" alt="">
+                        <div class="absolute bg-white text-xl font-semibold hover:text-orange-400 right-0">Products</div>
+                    </div>
+                </div>
+            </div>
+            <div class="slide">
+                <div class="inner_box">
+                    <div class=" bg-gray-300">
+                        <img src="./img/istockphoto-1168912372-170667a.jpg" alt=""><div class="absolute bg-white text-xl font-semibold hover:text-orange-400 top-2">Products</div>
+                    </div>
+                </div>
+            </div>
+            <div class="slide">
+                <div class="inner_box">
+                    <div class=" bg-gray-300">
+                        <img src="./img/istockphoto-1168912372-170667a.jpg" alt=""><div class="absolute bg-white text-xl font-semibold hover:text-orange-400 top-0 right-0">Products</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="container pt-20 m-0 mr-0 pr-0">
+        <section class="flex justify-between">
+            <div class="flex-1 pl-6">
+                <h1 class="font-bold mb-8">Useful Links</h1>
+                <div class="flex">
+                    <div class=" flex flex-col w-1/2">
+                        <a class=" mb-3 text-base text-gray-800 hover:text-orange-300" href="#">Catalogue</a>
+                        <a class=" mb-3 text-base text-gray-800 hover:text-orange-300" href="#">Payment</a>
+                        <a class=" mb-3 text-base text-gray-800 hover:text-orange-300" href="#">Shipping</a>
+                        <a class=" mb-3 text-base text-gray-800 hover:text-orange-300" href="#">Features</a>
+                    </div>
+                    <div class=" flex flex-col w-1/2">
+                        <a class=" mb-3 text-base text-gray-800 hover:text-orange-300" href="#">Blog</a>
+                        <a class=" mb-3 text-base text-gray-800 hover:text-orange-300" href="#">Privacy Policy</a>
+                        <a class=" mb-3 text-base text-gray-800 hover:text-orange-300" href="#">Contact</a>
+                    </div>
+                </div>
+            </div>
+            <div class="flex-1">
+                <h1 class="font-bold mb-8">Contacts</h1>
+                <div class="flex">
+                    <div class="">
+                        <h2 class="font-bold text-base">NewYork</h2>
+                        <span class="text-sm text-gray-800">135,34th street, <br>New York, NewYork</span>
+                        <h6 class="text-orange-300 text-sm italic mt-4 hover:text-gray-500">himanshuaggar00@gmail.com</h6>
+                    </div>
+                    <div class="ml-8">
+                        <h2 class="font-bold text-base">New Delhi</h2>
+                        <span class="text-sm text-gray-800">123, Chanakypuri, <br> New Delhi, Delhi</span>
+                        <h6 class="text-orange-300 text-sm italic mt-4 hover:text-gray-500">himanshuaggar00@gmail.com</h6>
+                    </div>
+                </div>
+            </div>
+            <div class="flex-1 pr-6">
+                <h1 class="font-bold mb-8">Register</h1>
+                <form action="" class="flex flex-col">
+                    <input class="border border-orange-300 placeholder-black p-2 text-sm rounded outline-none shadow-outline mb-6" type="text" placeholder="Name">
+                    <input class="border border-orange-300 placeholder-black p-2 text-sm rounded outline-none shadow-outline mb-6" type="email" placeholder="Email">
+                    <button class="bg-orange-300 p-2 text-sm text-white hover:bg-orange-500 uppercase">Register Now</button>
+                </form>
+            </div>
+        </section>
+
+        <section class="border-t border-gray-400 py-6 mt-6 flex justify-between items-center">
+            <div class="pr-8 uppercase text-lg font-semibold">2022, made by :- Himanshu Aggarwal</div>
+            <div class="flex items-center">
+                <a href="#" class="ml-6 text-3xl hover:text-orange-500"><i class="fa-brands fa-facebook"></i></a>
+                <a href="#" class="ml-6 text-3xl hover:text-orange-500"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#" class="ml-6 text-3xl hover:text-orange-500"><i class="fa-brands fa-twitter"></i></a>
+                <a href="#" class="ml-6 text-3xl hover:text-orange-500"><i class="fa-brands fa-github"></i></a>
+            </div>
+        </section>
+    </footer>
+
+
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+ <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="./js/app.js"></script>
+</body>
+</html>

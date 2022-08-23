@@ -1,0 +1,114 @@
+@tailwind base;
+
+@tailwind components;
+
+@tailwind utilities;
+
+
+.hero_heading{
+    left:42%;
+}
+.slider-dots{
+    right:-6rem;
+    top:50%;
+    transform:translateY(-50%);
+
+} 
+.slider-dots button{
+font-size:0;
+width:5px;
+height:5px;
+border-radius:50%;
+outline:none;
+}
+
+.upto{
+    position:relative;
+}
+.upto:after{
+    content:'';
+    position:absolute;
+    left:0;
+    bottom:-1rem;
+    height:4px;
+    width:80%;
+    background:#FBCEB1;
+}
+
+.menu-trigger.is-open + .sub-menu{
+    max-height:100%;
+    overflow:visible;
+}
+
+.box-1{
+    position:relative;
+    height:15rem;
+}
+.box-1 img{
+    position:absolute;
+    top:-4rem;
+}
+.box-2{
+    position:relative;
+    height:20rem;
+}
+.box-2 img{
+    position:absolute;
+    bottom:-1rem;
+}
+.box-4{
+    position:relative;
+    height:10rem;
+    
+}
+.box-3{
+    position:relative;
+    height:15rem;
+}
+.box-3 img{
+    position:absolute;
+    bottom:-3rem;
+}
+.box-4{
+    position:relative;
+    height:10rem;
+    
+}
+.box-4 img{
+    position:absolute;
+    top:-4rem;
+    left:10%;
+}
+.box-5{
+    position:relative;
+    height:16rem;
+    width:100%;
+
+}
+.agree_checkbox + label{
+    display:block;
+    width:24px;
+    height:24px;
+    background:#fff;
+    cursor:pointer;
+    position:relative;
+}
+
+.agree_checkbox + label:before{
+    content:'';
+    display:block;
+    width:8px;
+    height:8px;
+    position:absolute;
+    top:50%;
+    left:50%;
+    
+}
+
+.slick-slide.slick-center .inner_box{
+    padding: 0 20px;
+}
+.slider-2{
+margin-left:-50px;
+margin-right:-50px
+}
